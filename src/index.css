@@ -1,10 +1,15 @@
-.image {  
-  width: auto;  
-  text-align: center;  
-  padding: 15px;  
-  border: 3px solid red;  
-  }  
-  img {  
-  max-width: 100%;  
-  height: auto;  
-  } 
+html, body, #root, .room {
+  height: 100%;
+  margin: 0;
+}
+
+.lit
+{
+  background-color: white;
+  color:black;
+}
+.dark
+{
+  background-color: black;
+  color:white;
+}
