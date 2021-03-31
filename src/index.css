@@ -1,5 +1,10 @@
-
-.hello
-{
-  background-color: red;
-}
+.image {  
+  width: auto;  
+  text-align: center;  
+  padding: 15px;  
+  border: 3px solid red;  
+  }  
+  img {  
+  max-width: 100%;  
+  height: auto;  
+  } 

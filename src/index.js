@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './App'
+import App from './App';
+import './index.css';
 
-function Hi()
+
+function Movies(props)
 {
- return <div className="hello"> 
-     <ul>
-         <li>
-             This is unordered List
-         </li>
-     </ul>
-     <strong>Fraz Naveed</strong>
+ return <div> 
+     
+    <App/>
+
       </div>
-} ReactDOM.render(<Hi/>, document.querySelector('#root'));
+} ReactDOM.render(<App/>, document.querySelector('#root'));
